@@ -26,8 +26,8 @@ variable "activity" {
   type = string
 }
 
-variable "k8sversion" {
-  type = string
+variable "aks_num_nodes" {
+  description = "number of aks nodes"
 }
 
 variable "tokenexpirehours" {
